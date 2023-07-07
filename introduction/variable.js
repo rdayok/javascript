@@ -42,3 +42,5 @@ console.log(resultThree)
 
 
 let resultFour = a / ((a + 10) * (a - 10) * (a % 10));
+
+
