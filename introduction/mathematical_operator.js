@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
-let left_operand = Number (prompt('Enter the left operand: \t'));
-let right_operand = Number (prompt('Enter the right operand:\t'));
+let left_operand = Number.parseFloat(prompt('Enter the left operand: \t'));
+let right_operand = Number.parseFloat(prompt('Enter the right operand:\t'));
 let operator = prompt('Enter the operator to be used for operation:\t');
 
 console.log(mathematical_operation(left_operand, operator, right_operand))
