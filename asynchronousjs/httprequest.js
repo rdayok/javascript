@@ -1,3 +1,4 @@
+
 // This is a request object I am declaring here that we can use to 
 // send a request to an endpoint
 const requestOject = new XMLHttpRequest();
@@ -14,6 +15,6 @@ requestOject.addEventListener(`readystatechange`, () => {
     }
 })
 
-const url = "https://jsonplaceholder.typicode.com/todoss/";
+const url = "https://jsonplaceholder.typicode.com/todos/";
 requestOject.open("GET", url)
 requestOject.send(); 
