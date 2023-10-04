@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Name Verifacation</title>
+    <h1 class="header">Account Name Verification</h1>
+    <script src="accountNameVerificator.js" defer></script>
+    <link rel="stylesheet" href="accountNameVerificator.css"/>
+
+</head>
+<body>
+    <form>
+    <div>
+        <select class="select-option" id="bank" name="bankCode">
+            <option value="select-your-bank" selected>Select your Bank</option>
+        </select>
+    
+        <input type="number" id="accountNumber" placeholder="account number" />
+        <button class="submit"  onclick="submit()">
+            SUBMIT
+        </button>
+    </div>
+    </form>
+</body>
+</html>

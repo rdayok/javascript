@@ -1,0 +1,21 @@
+html {
+    background-color: black;
+}
+
+.header {
+    color: white;
+}
+
+.select-option {
+    border: none;
+}
+
+
+.submit {
+    background-color: black;
+    border-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    color: white;
+    
+}
